@@ -108,6 +108,11 @@ a.active {
 	
 }
 
+.html, .css {
+	padding-bottom: 2.5rem;
+}
+
+
 /* Carousel */
 /* Make the image fully responsive */
   .carousel-inner img {
@@ -304,6 +309,3 @@ footer {
 	color: #8fa6ba;
 	
 }
-
-
-
