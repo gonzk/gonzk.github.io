@@ -287,6 +287,21 @@ input[type=submit] {
   margin-left: 6px;
 }
 
+/* Project */
+.image-project {
+  opacity: 1;
+  display: block;
+  width: 50%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+
+.container:hover .image-project {
+  opacity: 0.5;
+}
+
 /* Footer */
 footer {
 	background-color: #3c5f7e;
