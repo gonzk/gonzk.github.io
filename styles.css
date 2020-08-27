@@ -109,7 +109,7 @@ a.active {
 }
 
 .html, .css, .java {
-	padding-bottom: 3 rem;
+	padding-bottom: 2.5rem;
 }
 
 
@@ -291,15 +291,63 @@ input[type=submit] {
 .image-project {
   opacity: 1;
   display: block;
-  width: 50%;
+  width: 100%;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
 }
 
-
 .container:hover .image-project {
   opacity: 0.5;
+}
+
+.middle-project {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.text-project a {
+  background-color: #8fa6ba;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  position: absolute;
+}
+
+/*Tracker */
+.tracker {
+	position: relative;
+	width: 50%;
+}
+
+
+.tracker:hover .image {
+  opacity: 0.3;
+}
+
+.tracker:hover .middle {
+  opacity: 1;
+}
+
+/*BrackenBot */
+.brackenbot {
+	position: relative;
+	width: 50%;
+}
+
+
+.brackenbot:hover .image {
+  opacity: 0.3;
+}
+
+.brackenbot:hover .middle {
+  opacity: 1;
 }
 
 /* Footer */
@@ -324,3 +372,6 @@ footer {
 	color: #8fa6ba;
 	
 }
+
+
+
