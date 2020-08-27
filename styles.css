@@ -297,10 +297,6 @@ input[type=submit] {
   backface-visibility: hidden;
 }
 
-.container:hover .image-project {
-  opacity: 0.5;
-}
-
 .middle-project {
 	transition: .5s ease;
 	opacity: 0;
@@ -326,12 +322,11 @@ input[type=submit] {
 	width: 50%;
 }
 
-
-.tracker:hover .image {
+.tracker:hover .image-project {
   opacity: 0.3;
 }
 
-.tracker:hover .middle {
+.tracker:hover .middle-project {
   opacity: 1;
 }
 
@@ -342,11 +337,11 @@ input[type=submit] {
 }
 
 
-.brackenbot:hover .image {
+.brackenbot:hover .image-project {
   opacity: 0.3;
 }
 
-.brackenbot:hover .middle {
+.brackenbot:hover .middle-project {
   opacity: 1;
 }
 
