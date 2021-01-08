@@ -345,6 +345,21 @@ input[type=submit] {
   opacity: 1;
 }
 
+/* Spotify Downloader */
+.spotify-dl {
+	position: relative;
+	width: 50%;
+}
+
+
+.spotify-dl:hover .image-project {
+  opacity: 0.3;
+}
+
+.spotify-dl:hover .middle-project {
+  opacity: 1;
+	
+
 /* Footer */
 footer {
 	background-color: #3c5f7e;
